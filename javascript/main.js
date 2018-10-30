@@ -112,7 +112,7 @@ for(let i = 0; i < hours.length; i++) {
   let text333 = document.createElement('li')
   text33.appendChild(text333)
   text333.innerText = hours[i] + " number of customer at store 3 is "+(cookie.customer_per_hour3())+" and cookies sold per "+
-   "hour is. "+(cookie.customer_per_hour3()* (cookie.number_of_cookie_per_customer))
+   "hour is "+(cookie.customer_per_hour3()* (cookie.number_of_cookie_per_customer))
 
 }
 
